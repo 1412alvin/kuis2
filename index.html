@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CV Alvinda</title>
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body id="top">
+	<div id="cv">
+	<div class="mainDetails">
+		<div id="avatar">
+			<img src="Pict/merh.jpg" />
+		</div>
+		
+		<div id="name">
+			<h1>Alvinda Julian Trismadi</h1>
+			<h2>1301174147</h2>
+		</div>
+		<ul>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Nama saya Alvinda Julian Trismadi lahir di bekasi, 05 juli 1999. Saya adalah mahasiswa S1 informatika Telkom University</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<h2>
+						<li>SDN Simpangan 1
+						</li>
+						<p class="subDetails">2005 - 2011</p>
+						<li> SMPN 1 Cikarang Utara </li>
+						<p class="subDetails">2011 - 2014</p>
+						<li> SMAN 1 Cikarang Pusat </li>
+						<p class="subDetails">2014 - 2016</p>
+						<li> Telkom University </li>
+						<p class="subDetails">2017 - sekarang</p>
+				
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<h2>
+					<li style="text-align: justify;">Pengurus Yuuki no Gurupu SMAN 1 Cikarang Pusat
+					</li>
+					<p class="subDetails">2015 - 2016</p>
+					<li style="text-align: justify;">Staff Muda Nippon Bunka-Bu Telkom University
+					</li>
+					<p class="subDetails">Mei 2018 - Oktober 2018</p>
+					<li style="text-align: justify;">Pengurus Nippon Bunka-Bu Telkom University
+					</li>
+					<p class="subDetails">2018 - 2019</p>
+				
+				</h2>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<h3> HTML </h3>
+					<div class="skills html"> 70%</div>
+				<br>
+				<h3> Pascal </h3>
+					<div class="skills pascal"> 80%</div>
+				<br>
+				<h3>Java</h3>
+					<div class="skills java"> 75%</div>
+				<br>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Contact</h1>
+			</div>
+			
+			<div class="sectionContent">
+					<p>
+						<img src="Pict/wa.png" style="width: 25px; height: 25px;">
+						 085759050799
+					<br>
+					<img src="Pict/line.png" style="width: 25px; height: 25px;">
+					alvindajulian
+					<br>
+					<img src="Pict/ig.jpg" style="width: 25px; height: 25px;">
+					<a href="https://www.instagram.com/alvindajulian/">
+					alvindajulian
+					</a>
+					<br>
+					<img src="Pict/fb.png" style="width: 25px; height: 25px;">
+					<a href="https://www.facebook.com/alvindajulian">
+					Alvin Madridista
+					</a>
+
+					</p>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+</div>
+</div>
+
+
+<script> 
+$(document).ready(function(){
+    var div = $(".skills");
+	div.animate({left: '100px'}, "slow");
+});
+
+
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBo0S2jLRqvd3Ylkp-IdX0Vb_GqOhizmw4",
+    authDomain: "kuis2webpro.firebaseapp.com",
+    databaseURL: "https://kuis2webpro.firebaseio.com",
+    projectId: "kuis2webpro",
+    storageBucket: "kuis2webpro.appspot.com",
+    messagingSenderId: "1031278753861"
+  };
+  firebase.initializeApp(config);
+</script>
+</script>
+</body>
+</html>
